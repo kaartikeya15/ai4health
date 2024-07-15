@@ -1,0 +1,8 @@
+[19-May-2024 21:47:05 UTC] PHP Warning:  require(/home/aihealth/ai4health.cs.nyu.edu/wp-includes/rest-api.php): Failed to open stream: No such file or directory in /home/aihealth/ai4health.cs.nyu.edu/wp-settings.php on line 277
+[19-May-2024 21:47:05 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/aihealth/ai4health.cs.nyu.edu/wp-includes/rest-api.php' (include_path='.:/opt/cpanel/ea-php80/root/usr/share/pear') in /home/aihealth/ai4health.cs.nyu.edu/wp-settings.php:277
+Stack trace:
+#0 /home/aihealth/ai4health.cs.nyu.edu/wp-config.php(91): require_once()
+#1 /home/aihealth/ai4health.cs.nyu.edu/wp-load.php(50): require_once('/home/aihealth/...')
+#2 /home/aihealth/ai4health.cs.nyu.edu/wp-admin/maint/repair.php(10): require_once('/home/aihealth/...')
+#3 {main}
+  thrown in /home/aihealth/ai4health.cs.nyu.edu/wp-settings.php on line 277
